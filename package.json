@@ -1,0 +1,17 @@
+{
+  "name": "lightcraft-android",
+  "productName": "LightCraft",
+  "version": "0.14.0",
+  "description": "LightCraft (Pure Rust + egui + WebAssembly non-destructive photo editor) packaged as a native Android APK via Capacitor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/prepare-dist.mjs",
+    "setup:android": "node scripts/setup-android.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  }
+}

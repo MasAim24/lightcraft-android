@@ -1,0 +1,7 @@
+node_modules/
+dist/
+android/
+.tmp_extract/
+*.zip
+*.apk
+fonts/
